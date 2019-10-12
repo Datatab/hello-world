@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<regions>
+		<region id="0">
+			<name>all</name>
+			<parameters>
+				<T value="293" /> 					<!-- температура -->
+				<k value="0.96" />
+			</parameters>
+		</region>
+	</regions>
+	<boundaries>
+		
+		<boundCond faceType="0">
+			<name>SmallCirlce</name>
+			<parameters>
+				<T value="320" /> 		<!-- температура -->
+			</parameters>
+		</boundCond>
+		
+		<boundCond faceType="1">
+			<name>Top</name>
+			<parameters>
+				<Flux value="1.5" /> 		<!-- температура -->
+			</parameters>
+		</boundCond>
+		
+		<boundCond faceType="2">
+			<name>Bot</name>
+			<parameters>
+				<Flux value="0" /> 		<!-- температура -->
+			</parameters>
+		</boundCond>
+		
+		<boundCond faceType="3">
+			<name>Obod</name>
+			<parameters>
+				<T value="380" /> 		<!-- температура -->
+			</parameters>
+		</boundCond>
+		
+		<boundCond faceType="4">
+			<name>BigCircle</name>
+			<parameters>
+				<T value="293" /> 		<!-- температура -->
+			</parameters>
+		</boundCond>
+		
+	</boundaries>

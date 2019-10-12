@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<regions>
+		<region id="0">
+			<name>all</name>
+			<parameters>
+				<T value="293" /> 					<!-- температура -->
+			</parameters>
+		</region>
+	</regions>
+	<boundaries>
+		
+		<boundCond faceType="0">
+			<name>top</name>
+			<parameters>
+				<T value="393" /> 		<!-- температура -->
+			</parameters>
+		</boundCond>
+		
+		<boundCond faceType="1">
+			<name>bot</name>
+			<parameters>
+				<T value="0" /> 		<!-- температура -->
+			</parameters>
+		</boundCond>
+		
+		<boundCond faceType="2">
+			<name>front</name>
+			<parameters>
+				<T value="0" /> 		<!-- температура -->
+			</parameters>
+		</boundCond>
+		
+		<boundCond faceType="3">
+			<name>back</name>
+			<parameters>
+				<T value="0" /> 		<!-- температура -->
+			</parameters>
+		</boundCond>
+		
+		<boundCond faceType="4">
+			<name>right</name>
+			<parameters>
+				<T value="450" /> 		<!-- температура -->
+			</parameters>
+		</boundCond>
+		
+		<boundCond faceType="5">
+			<name>left</name>
+			<parameters>
+				<T value="450" /> 		<!-- температура -->
+			</parameters>
+		</boundCond>
+	</boundaries>

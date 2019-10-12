@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<regions>
+		<region id="0">
+			<name>all</name>
+			<parameters>
+				<ro value="1.4" /> 					
+				<u value="0" />
+				<v value="0" />
+				<w value="3" />
+				<P value="1" />
+			</parameters>
+		</region>
+	</regions>
+	
+	<boundaries>
+		
+		<boundCond faceType="0">
+			<name>FRONT_Z</name>
+			<type>OUTLET</type>
+			<parameters>
+				<ro value="1.4" /> 					
+				<u value="0" />
+				<v value="0" />
+				<w value="3" />
+				<P value="1" />
+			</parameters>
+		</boundCond>
+		
+		<boundCond faceType="1">
+			<name>BACK_Z</name>
+			<type>INLET</type>
+			<parameters>
+				<ro value="1.4" /> 					
+				<u value="0" />
+				<v value="0" />
+				<w value="3" />
+				<P value="1" /> 		
+			</parameters>
+		</boundCond>
+		
+		<boundCond faceType="2">
+			<name>FRONT_X</name>
+			<type>INLET</type>
+			<parameters>
+				<ro value="1.4" /> 					
+				<u value="0" />
+				<v value="0" />
+				<w value="3" />
+				<P value="1" /> 						
+			</parameters>
+		</boundCond>
+		
+		<boundCond faceType="3">
+			<name>BACK_X</name>
+			<type>OUTLET</type>
+			<parameters>
+				<ro value="1.4" /> 					
+				<u value="0" />
+				<v value="0" />
+				<w value="3" />
+				<P value="1" /> 	
+			</parameters>
+		</boundCond>
+		
+		<boundCond faceType="4">
+			<name>FRONT_Y</name>
+			<type>INLET</type>
+			<parameters>
+				<ro value="1.4" /> 					
+				<u value="0" />
+				<v value="4" />
+				<w value="3" />
+				<P value="1" /> 
+			</parameters>
+		</boundCond>
+		
+		<boundCond faceType="5">
+			<name>BACK_Y</name>
+			<type>OUTLET</type>
+			<parameters>
+				<ro value="1.4" /> 					
+				<u value="0" />
+				<v value="4" />
+				<w value="3" />
+				<P value="1" /> 				
+			</parameters>
+		</boundCond>
+		
+	</boundaries>

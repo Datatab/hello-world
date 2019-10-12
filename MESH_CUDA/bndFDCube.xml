@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<regions>
+		<region id="0">
+			<name>all</name>
+			<parameters>
+				<T value="293" /> 					<!-- температура -->
+				<k value="0.96" />
+			</parameters>
+		</region>
+	</regions>
+	<boundaries>
+		
+		<boundCond faceType="0">
+			<name>top</name>
+			<parameters>
+				<T value="320" /> 		<!-- температура -->
+			</parameters>
+		</boundCond>
+		
+		<boundCond faceType="1">
+			<name>bottom</name>
+			<parameters>
+				<Flux value="1.5" /> 		<!-- температура -->
+			</parameters>
+		</boundCond>
+		
+		
+	</boundaries>
